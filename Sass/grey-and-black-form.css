@@ -1,0 +1,56 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+}
+
+body {
+  margin: "auto auto";
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#wrap-container {
+  width: inherit;
+  margin: 150px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  border: 2px solid white;
+  width: 350px;
+}
+
+.terms {
+  display: "flex";
+  margin: "auto auto";
+  width: inherit;
+  justify-content: center;
+  text-align: start;
+}
+
+input[type=email] {
+  display: "block";
+  background-color: rgba(128, 128, 128, 0.4);
+  margin: 0 10px;
+  color: white;
+}
+
+input[type=checkbox] {
+  display: "block";
+  background-color: rgba(128, 128, 128, 0.4);
+  margin: 0 10px;
+  color: white;
+}
+
+input[type=submit] {
+  display: "block";
+  background-color: rgba(128, 128, 128, 0.4);
+  margin: "auto auto";
+  width: 200px;
+  border-radius: 20px;
+  color: white;
+}/*# sourceMappingURL=grey-and-black-form.css.map */
